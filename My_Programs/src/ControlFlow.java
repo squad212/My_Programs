@@ -12,14 +12,16 @@ public class ControlFlow {
 			System.out.println("customer pin-success");
 			System.out.println("withdraw/depost amount");
 		}
-		
-		else 
+
+		else
 				System.out.println("invalid pin-decline");
-		
-		
-			
+
+
+
 		System.out.println("a and b are same here");
 		System.out.println("press 1 to withdraw, press 2 to deposit, press 3 to exit ");
+
+
 		int option = 2;
 		if (option == 1)
 		{
@@ -27,11 +29,12 @@ public class ControlFlow {
 		}
 		else if (option == 2)
 		{System.out.println("enter deposit amount");
-		
 		}
 		else
 		{
 			System.out.println("thank you");
+
+
 		for(int i=1; i<=4 ; i++) {
 				System.out.println("hi");
 				if( i==1 )
@@ -39,16 +42,7 @@ public class ControlFlow {
 				else if ( i==3 )
 					break;
 				System.out.println("bye");
-		
-	
-			
-			
-	
 			}
-		
-		
 		}
-
 	}
- 
 }

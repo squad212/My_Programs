@@ -7,7 +7,7 @@ public class Accountant {
 		c.add(1,2);
 		int x = c.add(1, 30);
 		System.out.println(x);
-	public class add (int a, int b){
+	public int add (int a, int b){
 		int sum = a + b;
 		return sum;
 		}
